@@ -1,4 +1,4 @@
-<h1 align="center">📝 Todo App (Full Stack)</h1>
+<h1 align="center"> Todo App (Full Stack)</h1>
 
 <p align="center">
 A modern and responsive full-stack Todo application that helps users manage their daily tasks efficiently.
@@ -6,7 +6,7 @@ A modern and responsive full-stack Todo application that helps users manage thei
 
 <hr/>
 
-<h2>🚀 Project Overview</h2>
+<h2> Project Overview</h2>
 
 <p>
 This application allows users to register, log in, and manage their tasks in a simple and efficient way.
@@ -15,7 +15,7 @@ It focuses on user experience, performance, and clean UI design.
 
 <hr/>
 
-<h2>🏠 Home Page</h2>
+<h2> Home Page</h2>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/madhur2004/todo-manager-fullstack/main/Frontend/Todo-App/public/images/Home.png" width="100%">
@@ -28,7 +28,7 @@ Users can understand what the app does and easily navigate to login or register.
 
 <hr/>
 
-<h2>🔐 Authentication System</h2>
+<h2> Authentication System</h2>
 
 <h3>Login Page</h3>
 
@@ -72,7 +72,7 @@ The dashboard allows users to manage tasks efficiently:
 
 <hr/>
 
-<h2>✨ Key Features</h2>
+<h2> Key Features</h2>
 
 <ul>
 <li>🔐 JWT Authentication</li>
@@ -109,7 +109,7 @@ The dashboard allows users to manage tasks efficiently:
 
 <hr/>
 
-<h2>📁 Folder Structure</h2>
+<h2> Folder Structure</h2>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/madhur2004/todo-manager-fullstack/main/Frontend/Todo-App/public/images/F-Folder.png" width="40%">
@@ -118,16 +118,16 @@ The dashboard allows users to manage tasks efficiently:
 
 <hr/>
 
-<h2>🌐 Live Demo</h2>
+<h2> Live Demo</h2>
 
 <p>
-Frontend: (Add after deploy) <br/>
-Backend: (Add after deploy)
+Frontend: (https://todo-manager-fullstack-gamma.vercel.app/home) <br/>
+Backend: (https://todo-manager-fullstack.onrender.com)
 </p>
 
 <hr/>
 
-<h2>💡 Future Improvements</h2>
+<h2> Future Improvements</h2>
 
 <ul>
 <li>📌 Task categories</li>
@@ -138,7 +138,7 @@ Backend: (Add after deploy)
 
 <hr/>
 
-<h2>👨‍💻 Author</h2>
+<h2> Author</h2>
 
 <p><b>Madhur Chaturvedi</b></p>
 
