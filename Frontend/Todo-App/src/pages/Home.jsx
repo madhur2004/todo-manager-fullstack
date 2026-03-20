@@ -47,7 +47,7 @@ function Home() {
           controls
           className="w-full max-w-md rounded-xl shadow-lg"
         >
-          <source src="../../public/TodoPro.mp4" type="video/mp4" />
+          <source src="/TodoPro.mp4" type="video/mp4" />
         </video>
       </div>
 
