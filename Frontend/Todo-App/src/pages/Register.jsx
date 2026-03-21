@@ -7,8 +7,30 @@ function Register() {
   const [form, setForm] = useState({ name: "", email: "", password: "" });
   const navigate = useNavigate();
 
+  const validateEmail = (email) => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const { name, email, password } = form;
+
+    // Empty check
+    if (!name || !email || !password) {
+      return toast.error("All fields are required");
+    }
+
+    // Email validation
+    if (!validateEmail(email)) {
+      return toast.error("Enter valid email (example@gmail.com)");
+    }
+
+    // Password length
+    if (password.length < 6) {
+      return toast.error("Password must be at least 6 characters");
+    }
 
     try {
       await API.post("/auth/register", form);
